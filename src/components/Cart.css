@@ -1,0 +1,66 @@
+.products{
+    margin-left: 300px;
+}
+.cart-container {
+    display: flex;
+    justify-content: center;
+}
+.cart-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    height: 80px;
+    border-bottom: 1px solid #d7d7d7;
+    width: 900px;
+
+}
+.top{
+    margin-top: 50px;
+}
+.cart {
+    display: flex;
+    align-items: center;
+    padding-right: 24px;
+  
+    min-width: 300px;
+  }
+  
+  .cart h1 {
+    font-size: 16px;
+    width: 150px;
+  }
+  
+  .cart img {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+  }
+  
+  .symbol {
+    text-transform: uppercase;
+  }
+  
+  .cart-data {
+    display: flex;
+    text-align: right;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .price {
+    width: 70px;
+  }
+  
+  .volume {
+    width: 155px;
+  }
+  
+  .marketcap {
+    width: 230px;
+  }
+  .card{
+      margin-top:10px;
+  }
+  
+  
